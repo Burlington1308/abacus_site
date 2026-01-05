@@ -12,19 +12,19 @@
 body {
     width: 100vw;
     font-family: 'arial-rounded';
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(100, 99, 99);
-    background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);
+    background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);*/
     height: 100vh;
     overflow-x: hidden;
 }
 
 
 
-/*.banner {
-    background-image: url('office (1).jpg');
+.banner {
+    background-image: url('images/office (1).jpg');
     width: 100%;
     background-position:center center;
     height: 700px;
@@ -44,11 +44,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 nav .logo {
     height: 100%;
-    margin-left: 10%;
     background: rgba(255, 255, 255, );
 }
 
@@ -57,15 +58,15 @@ nav .logo img {
 }
 
 .nav-items {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     margin-right: 15%;
 }
 
-.nav-items a {
+.nav-items a, .contact-link {
     text-decoration: none;
-    width: 25%;
+    padding: 4px 10px;
 }
 
 .nav-items a:hover {
@@ -77,11 +78,12 @@ nav .logo img {
 .contact-link {
     border-radius: 5px;
     border: 2px solid rgb(125, 209, 241);
+    background: rgba(0, 0, 0, 0.75);
     color: rgb(125, 209, 241);
     text-align: center;
 }
 
-.home-link, .about-link, .projects-link {
+.home-link, .about-link, .services-link, .portfolio-link {
     color: white;
 }
 
@@ -122,4 +124,4 @@ nav .logo img {
     font-size: 2rem;
     background: rgba(0, 0, 0, 0.75);
     transition: .6s ease all;
-}*/
+}
