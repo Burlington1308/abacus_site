@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'arial-rounded';
+    src: url('./my_fonts/unicode.arialr.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    font-family: 'arial-rounded';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(100, 99, 99);
+    background: linear-gradient(to bottom, #f0f0f0, #d9d9d9);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+/*.banner {
+    background-image: url('office (1).jpg');
+    width: 100%;
+    background-position:center center;
+    height: 700px;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: inherit;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    height: 10vh;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    height: 100%;
+    margin-left: 10%;
+    background: rgba(255, 255, 255, );
+}
+
+nav .logo img {
+    height: 100%;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    width: 25%;
+}
+
+.nav-items a:hover {
+    font-size: larger;
+    transition: .7s ease all;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.contact-link {
+    border-radius: 5px;
+    border: 2px solid rgb(125, 209, 241);
+    color: rgb(125, 209, 241);
+    text-align: center;
+}
+
+.home-link, .about-link, .projects-link {
+    color: white;
+}
+
+.banner-center {
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+.call-to-action {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    height: 10vh;
+}
+
+.call-to-action a {
+    width: 30%;
+    height: 100%;
+    border: 2px solid rgb(125, 209, 241);
+    display: grid;
+    place-items: center;
+    color: rgb(125, 209, 241);
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.call-to-action a:hover {
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.75);
+    transition: .6s ease all;
+}*/
