@@ -60,7 +60,7 @@ nav .logo img {
 }
 
 .nav-items {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     margin-right: 15%;
@@ -90,6 +90,43 @@ nav .logo img {
 
 .home-link, .about-link, .services-link, .portfolio-link {
     color: white;
+}
+
+.services-nav {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: absolute;
+    top: 10vh;
+    background: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+}
+
+.services-nav.active {
+    display: flex;
+    animation-duration: 1.5s;
+    animation-name: slideDown;
+}
+
+.services-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100%); /* Starts 100% of its height above its final position */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Ends at its normal position */
+  }
 }
 
 .banner-center {
