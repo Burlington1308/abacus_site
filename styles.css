@@ -80,6 +80,23 @@ nav .logo img {
     color: rgb(125, 209, 241);
 }
 
+.mobile {
+    display: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 10px;
+}
+
+.mobile span {
+    background: #fff;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
 .contact-link {
     border-radius: 5px;
     border: 2px solid rgb(125, 209, 241);
